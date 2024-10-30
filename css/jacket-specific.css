@@ -493,17 +493,18 @@ header {
 
     .shopping-card-sub-total h4 {
         font-family: 'Roboto';
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-weight: 500;
     }
 
     .shopping-card-col-2-container p {
-        padding: 1rem 0rem 1rem 0rem;
+        padding: 0rem 0rem 1rem 0rem;
         font-family: Roboto;
         font-size: 1rem;
         font-weight: 300;
         display: flex;
         justify-content: flex-start;
+        text-align: start;
     }
 
     .shopping-card-btn {
@@ -619,10 +620,11 @@ header {
 
 }
 
-.sec-1-title-div-jacket p {
+.sec-1-title-div-jacket a {
     font-family: 'Roboto';
     font-size: 1rem;
     font-weight: 300;
+    color: #000000;
 
 }
 
@@ -892,11 +894,11 @@ i {
 .sec-1-product-details-main-jacket .pb {
     display: flex;
     flex: 1 1 100%;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
 }
 
 .sec-1-product-details-col-1-jacket {
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
 }
 
 .sec-1-product-details-cols-div-1-jacket {
@@ -993,6 +995,11 @@ i {
 
     .section-2 {
         display: none;
+    }
+
+    .sec-1-product-details-main-jacket .pb {
+        flex-direction: column;
+        gap: 0;
     }
 }
 
@@ -1238,7 +1245,7 @@ i {
 
 @media (600px<width<700px) {
     .common-div {
-        padding: 7.5rem 4rem;
+        padding: 7.5rem 4rem 2rem 4rem;
     }
 
     .section-2-gallery {
@@ -1248,7 +1255,7 @@ i {
 
 @media (width<600px) {
     .common-div {
-        padding: 7rem 2rem;
+        padding: 7rem 2rem 2rem 2rem;
     }
 }
 
