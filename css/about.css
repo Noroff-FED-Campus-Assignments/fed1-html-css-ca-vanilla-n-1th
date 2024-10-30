@@ -396,10 +396,11 @@ header {
 
 }
 
-.sec-1-title-div-about p {
+.sec-1-title-div-about a {
     font-family: 'Roboto';
     font-size: 1rem;
     font-weight: 300;
+    color: #000000;
 
 }
 

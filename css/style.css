@@ -69,7 +69,6 @@ header {
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 2rem;
     background-color: #fff;
     z-index: 80;
 }
@@ -82,7 +81,7 @@ header {
     font-family: 'Poppins';
     font-weight: 500;
     color: #000;
-    padding: 1.8rem 0.7rem;
+    padding: 1.8rem 1.5rem;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
     justify-content: center;
@@ -145,6 +144,42 @@ header {
     padding-left: 1.25rem;
     font-size: 1.1rem;
     cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    height: 2rem;
+    cursor: pointer;
+    background-color: #fff;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    padding-left: 0.5rem;
+    border-radius: 0.3rem;
+
+}
+
+.search-box:hover input {
+    width: 15rem;
+    padding-left: 1rem;
+}
+
+.search-box:hover {
+    border: 1.5px solid lightgray;
+}
+
+.search-box a i {
+    padding-left: 0;
+    color: #000000;
+}
+
+.search-box input {
+    width: 0;
+    outline: none;
+    border: transparent;
+    transition: all 0.2s ease-in;
+    background: transparent;
+    font-family: 'Roboto';
+    font-size: 1rem;
 }
 
 #check {
@@ -353,6 +388,7 @@ header {
 
 .nav-icons {
     display: flex;
+    align-items: center;
 }
 
 @media (width<600px) {
@@ -503,6 +539,8 @@ header {
     .categories-list-1-item-1 button a {
         color: #000000;
         text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 1rem;
     }
 
     .categories-list-1-item-2 button {
@@ -515,6 +553,8 @@ header {
     .categories-list-1-item-2 button a {
         color: #000000;
         text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 1rem;
     }
 
     .categories-list-2-item-1 button {
@@ -527,6 +567,8 @@ header {
     .categories-list-2-item-1 button a {
         color: #000000;
         text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 1rem;
     }
 
     .categories-list-2-item-2 button {
@@ -539,6 +581,8 @@ header {
     .categories-list-2-item-2 button a {
         color: #000000;
         text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 1rem;
     }
 
     .categories-list-1 {
@@ -765,7 +809,7 @@ header {
 
 .section-2-gallery-common span {
     font-family: 'Roboto';
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
     padding-top: 0.4rem;
 }
