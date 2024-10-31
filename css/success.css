@@ -68,7 +68,6 @@ h6 {
 
 /*imp! HEADER */
 
-
 header {
   height: 5rem;
   width: 100%;
@@ -79,8 +78,6 @@ header {
   display: flex;
   align-items: center;
 }
-
-
 
 .desktop-nav {
   display: flex;
@@ -124,7 +121,6 @@ header {
 }
 
 @media (width>850px) {
-
   .nav-links li {
     display: flex;
     align-items: center;
@@ -161,7 +157,6 @@ header {
   cursor: pointer;
   font-size: 1.5rem;
   display: none;
-
 }
 
 .c-open-menu {
@@ -190,7 +185,6 @@ header {
   transition: all 0.2s ease-in;
   padding-left: 0.5rem;
   border-radius: 0.3rem;
-
 }
 
 .search-box:hover input {
@@ -246,7 +240,6 @@ header {
   visibility: visible;
   transition: max-height 0.2s ease-in;
   opacity: 1;
-
 }
 
 .nav-login {
@@ -258,13 +251,11 @@ header {
 }
 
 @media (width <850px) {
-
   .nav-links a {
     font-size: 1rem;
     font-family: 'Poppins';
     font-weight: 500;
     color: #fff;
-
   }
 
   .jacket-links-mobile .c-summary-btn {
@@ -281,8 +272,6 @@ header {
     }
   }
 
-
-
   .nav-links {
     display: flex;
     flex-direction: column;
@@ -295,7 +284,7 @@ header {
     top: 0%;
     right: -100%;
     z-index: 100;
-    background-color: #03346E;
+    background-color: #03346e;
     transition: all 0.5s ease-in-out;
   }
 
@@ -304,7 +293,6 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
-
   }
 
   .nav-links li :hover {
@@ -324,9 +312,7 @@ header {
     color: #000000;
     border-bottom: 0.7rem solid red;
     margin: auto;
-
   }
-
 
   .c-open-menu,
   .c-close-menu {
@@ -337,10 +323,9 @@ header {
     color: white;
   }
 
-  #check:checked~.nav-links {
+  #check:checked ~ .nav-links {
     right: 0%;
   }
-
 
   .jacket-categories-main {
     position: absolute;
@@ -362,14 +347,12 @@ header {
     display: block;
     width: 100%;
     padding: 0.3rem 0.7rem;
-
   }
 
   .nav-links li:hover .jacket-categories-main {
     visibility: visible;
     transition: max-height 0.2s ease-in;
     opacity: 1;
-
   }
 
   .jacket-links-mobile {
@@ -418,7 +401,6 @@ header {
     border-bottom: 0.7rem solid red;
     margin: auto;
   }
-
 }
 
 .nav-icons {
@@ -431,7 +413,6 @@ header {
     padding: 2rem 4rem 2rem 1.3rem;
   }
 }
-
 
 /* Layout main */
 
@@ -719,6 +700,15 @@ header {
   padding-bottom: 2rem;
 }
 
+.c-btn-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+}
+
 input#submit {
   padding: 1rem 1.2rem;
   text-decoration: none;
@@ -737,7 +727,7 @@ input#submit:hover {
   background-color: rgb(20, 19, 19);
 }
 
-@media only screen and (width>600px) {
+@media only screen and (width>599px) {
   .c-circle {
     position: relative;
     display: flex;
@@ -767,17 +757,7 @@ input#submit:hover {
   }
 
   input#submit {
-    padding: 1rem 2rem;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    border-radius: 10px;
-    background-color: #0146ac;
     font-size: var(--size-xs);
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    letter-spacing: 1px;
   }
 
   input#submit:hover {
