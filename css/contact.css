@@ -147,6 +147,42 @@ header {
     cursor: pointer;
 }
 
+.search-box {
+    display: flex;
+    height: 2rem;
+    cursor: pointer;
+    background-color: #fff;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    padding-left: 0.5rem;
+    border-radius: 0.3rem;
+
+}
+
+.search-box:hover input {
+    width: 15rem;
+    padding-left: 1rem;
+}
+
+.search-box:hover {
+    border: 1.5px solid lightgray;
+}
+
+.search-box a i {
+    padding-left: 0;
+    color: #000000;
+}
+
+.search-box input {
+    width: 0;
+    outline: none;
+    border: transparent;
+    transition: all 0.2s ease-in;
+    background: transparent;
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+
 #check {
     display: none;
 }
@@ -353,6 +389,7 @@ header {
 
 .nav-icons {
     display: flex;
+    align-items: center;
 }
 
 @media (width<600px) {

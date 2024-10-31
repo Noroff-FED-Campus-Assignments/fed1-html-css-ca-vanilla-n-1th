@@ -87,7 +87,6 @@ header {
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 2rem;
   background-color: #fff;
   z-index: 80;
 }
@@ -100,7 +99,7 @@ header {
   font-family: 'Poppins';
   font-weight: 500;
   color: #000;
-  padding: 1.8rem 0.7rem;
+  padding: 1.8rem 1.5rem;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
   justify-content: center;
@@ -112,10 +111,10 @@ header {
   .nav-links li {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     height: 5rem;
     min-width: 6rem;
-    padding: 0rem 0.5rem;
+    /* padding: 0rem 0.5rem; */
     transition: all 0.2s ease-in-out;
   }
 
@@ -163,6 +162,42 @@ header {
   padding-left: 1.25rem;
   font-size: 1.1rem;
   cursor: pointer;
+}
+
+.search-box {
+  display: flex;
+  height: 2rem;
+  cursor: pointer;
+  background-color: #fff;
+  align-items: center;
+  transition: all 0.2s ease-in;
+  padding-left: 0.5rem;
+  border-radius: 0.3rem;
+
+}
+
+.search-box:hover input {
+  width: 15rem;
+  padding-left: 1rem;
+}
+
+.search-box:hover {
+  border: 1.5px solid lightgray;
+}
+
+.search-box a i {
+  padding-left: 0;
+  color: #000000;
+}
+
+.search-box input {
+  width: 0;
+  outline: none;
+  border: transparent;
+  transition: all 0.2s ease-in;
+  background: transparent;
+  font-family: 'Roboto';
+  font-size: 1rem;
 }
 
 #check {
@@ -371,6 +406,7 @@ header {
 
 .nav-icons {
   display: flex;
+  align-items: center;
 }
 
 @media (width<600px) {
