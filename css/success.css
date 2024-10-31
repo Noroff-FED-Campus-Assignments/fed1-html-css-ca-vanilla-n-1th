@@ -171,7 +171,7 @@ header {
 }
 
 .nav-icons i {
-  padding-left: 1.25rem;
+  padding-left: 1.7rem;
   font-size: 1.1rem;
   cursor: pointer;
 }
@@ -323,7 +323,7 @@ header {
     color: white;
   }
 
-  #check:checked ~ .nav-links {
+  #check:checked~.nav-links {
     right: 0%;
   }
 
