@@ -40,20 +40,20 @@
     <header>
         <nav class="desktop-nav">
             <div class="logo-div">
-                <a tabindex="1" role="logo" href="index.html" class="logo"><img src="/images/rainydays-logo.png"
-                        alt="logo"></a>
+                <a role="logo" href="index.html" class="logo"><img src="/images/rainydays-logo.png" alt="logo"
+                        aria-label="logo"></a>
             </div>
             <input type="checkbox" id="check">
             <div class="nav-links">
-                <li role="home"> <a href="index.html" class="nav-item" tabindex="2">Home</a></li>
-                <li role="jackets" id="jacket-links">
-                    <a href="#" class="nav-item nav-item-link " tabindex="3">Jackets</a>
+                <li role="home" aria-label="home"> <a href="index.html" class="nav-item">Home</a></li>
+                <li role="jackets" id="jacket-links" aria-label="jackets-links">
+                    <a href="#" class="nav-item nav-item-link ">Jackets</a>
                     <div class="jacket-categories-main">
                         <div class="jacket-categories-sub">
                             <ul>
-                                <li> <a href="/men.html" tabindex=" 4">Men's</a></li>
-                                <li> <a href="/women.html" tabindex=" 5">Women's</a></li>
-                                <li> <a href="#" tabindex=" 6">Kids</a></li>
+                                <li aria-label="men"> <a href="/men.html">Men's</a></li>
+                                <li aria-label="women"> <a href="/women.html">Women's</a></li>
+                                <li aria-label="kids"> <a href="#">Kids</a></li>
                             </ul>
                         </div>
                     </div>
@@ -66,20 +66,21 @@
                     <a href="/" class="c-summary-btn"> Women's</a>
                     <a href="/" class="c-summary-btn"> Kids</a>
                 </details>
-                <li role=" aboutus"> <a href="about.html" class="nav-item" tabindex="7">About us</a></li>
-                <li role="contact"> <a href="contact.html" class="nav-item" tabindex="8">Contact</a></li>
+                <li role=" aboutus"> <a href="about.html" class="nav-item">About us</a></li>
+                <li role="contact"> <a href="contact.html" class="nav-item">Contact</a></li>
                 <label for="check" class="c-close-menu">
                     <i class="fa-solid fa-x"></i>
                 </label>
             </div>
             <div class="nav-icons">
                 <div class="search-box">
-                    <a href="">
+                    <a href="" aria-label="search for items">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </a>
                     <input type="search" placeholder="Search...">
                 </div>
-                <a href="/login.html" class="nav-login"><i class="fa-solid fa-user"></i></a>
+                <a href="/login.html" class="nav-login" aria-label="login to the account"><i
+                        class="fa-solid fa-user"></i></a>
                 <i class="fa-solid fa-cart-shopping"></i>
             </div>
 
@@ -100,8 +101,8 @@
                 <span class="All-Weather">All-Weather Jackets</span>
                 <span class="Adventure">for Every Adventure"</span>
             </div>
-            <div role="exploremore" class="act-btn-div">
-                <a class="act-btn-hero" href="/men.html">Explore More</a>
+            <div role="exploremore" class="act-btn-div" aria-label="explore-more">
+                <a class="act-btn-hero" href="/men.html" aria-label="view more about the products">Explore More</a>
             </div>
         </div>
 
@@ -112,10 +113,10 @@
             <div class="categories-main">
                 <div class="categories-list-1">
                     <div class="categories-list-1-item-1 categories-list-1-item-1-common">
-                        <button><a href="/men.html">Men</a></button>
+                        <button><a href="/men.html" aria-label="view more about men's page">Men</a></button>
                     </div>
                     <div class="categories-list-1-item-2 categories-list-1-item-1-common">
-                        <button><a href="/women.html">Women</a></button>
+                        <button><a href="/women.html" aria-label="view more about women's page">Women</a></button>
                     </div>
                 </div>
                 <div class="categories-list-2">
@@ -199,7 +200,7 @@
                 </div>
 
                 <div class="section-2-gallery-img-2 section-2-gallery-common">
-                    <div><a href="/jacket-specific.html">
+                    <div><a href="/jacket-specific.html" aria-label="view more about the jacket">
                             <img src="/images/hero-page-img/you-might-2.jpg" alt="A man with a jacket">
                         </a></div>
                     <p class="section-2-gallery-text-p">Arctic Patrol Down Parka</p>
@@ -216,14 +217,14 @@
                         </div>
                         <div class="section-2-gallery-2">
                             <div class="add-btn-div">
-                                <a href="/jacket-specific.html">View</a>
+                                <a href="/jacket-specific.html" aria-label="view more about the jacket">View</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="section-2-gallery-img-3 section-2-gallery-common">
-                    <div><a href="/jacket-specific.html">
+                    <div><a href="/jacket-specific.html" aria-label="view more about the jacket">
                             <img src="/images/hero-page-img/you-might-3.jpg" alt="A man with a jacket">
                         </a></div>
                     <p class="section-2-gallery-text-p">Nordsjo Winter Parka</p>
@@ -240,7 +241,7 @@
                         </div>
                         <div class="section-2-gallery-2">
                             <div class="add-btn-div">
-                                <a href="/jacket-specific.html">View</a>
+                                <a href="/jacket-specific.html" aria-label="view more about the jacket">View</a>
                             </div>
                         </div>
                     </div>
@@ -248,7 +249,7 @@
                 </div>
 
                 <div class="section-2-gallery-img-4 section-2-gallery-common">
-                    <div><a href="/jacket-specific.html">
+                    <div><a href="/jacket-specific.html" aria-label="view more about the jacket">
                             <img src="/images/hero-page-img/you-might-4.jpg" alt="A man with a jacket">
                         </a></div>
                     <p class="section-2-gallery-text-p">Leather Harrington Jacket</p>
@@ -265,7 +266,7 @@
                         </div>
                         <div class="section-2-gallery-2">
                             <div class="add-btn-div">
-                                <a href="/jacket-specific.html">View</a>
+                                <a href="/jacket-specific.html" aria-label="view more about the jacket">View</a>
                             </div>
                         </div>
                     </div>
@@ -273,7 +274,7 @@
                 </div>
 
                 <div class="section-2-gallery-img-5 section-2-gallery-common">
-                    <div><a href="/jacket-specific.html">
+                    <div><a href="/jacket-specific.html" aria-label="view more about the jacket">
                             <img src="/images/hero-page-img/you-might-5.jpg" alt="A woman with a jacket">
                         </a></div>
                     <p class="section-2-gallery-text-p">Women's Maud Parka</p>
@@ -290,14 +291,14 @@
                         </div>
                         <div class="section-2-gallery-2">
                             <div class="add-btn-div">
-                                <a href="/jacket-specific.html">View</a>
+                                <a href="/jacket-specific.html" aria-label="view more about the jacket">View</a>
                             </div>
                         </div>
                     </div>
 
                 </div>
                 <div class="section-2-gallery-img-6 section-2-gallery-common">
-                    <div><a href="/jacket-specific.html">
+                    <div><a href="/jacket-specific.html" aria-label="view more about the jacket">
                             <img src="/images/hero-page-img/you-might-6.jpg" alt="A man with a jacket">
                         </a></div>
                     <p class="section-2-gallery-text-p">Verglas Icefall Down Jacket</p>
@@ -314,7 +315,7 @@
                         </div>
                         <div class="section-2-gallery-2">
                             <div class="add-btn-div">
-                                <a href="/jacket-specific.html">View</a>
+                                <a href="/jacket-specific.html" aria-label="view more about the jacket">View</a>
                             </div>
                         </div>
                     </div>
@@ -322,7 +323,7 @@
                 </div>
 
                 <div class="section-2-gallery-img-7 section-2-gallery-common">
-                    <div><a href="/jacket-specific.html">
+                    <div><a href="/jacket-specific.html" aria-label="view more about the jacket">
                             <img src="/images/hero-page-img/you-might-7.jpg" alt="A woman with a jacket">
                         </a></div>
                     <p class="section-2-gallery-text-p">Oversized Belted Jacket</p>
@@ -339,7 +340,7 @@
                         </div>
                         <div class="section-2-gallery-2">
                             <div class="add-btn-div">
-                                <a href="/jacket-specific.html">View</a>
+                                <a href="/jacket-specific.html" aria-label="view more about the jacket">View</a>
                             </div>
                         </div>
                     </div>
@@ -347,7 +348,7 @@
                 </div>
 
                 <div class="section-2-gallery-img-8 section-2-gallery-common">
-                    <div><a href="/jacket-specific.html">
+                    <div><a href="/jacket-specific.html" aria-label="view more about the jacket">
                             <img src="/images/hero-page-img/you-might-8.jpg" alt="A man with a jacket">
                         </a></div>
                     <p class="section-2-gallery-text-p">Leather Biker Jacket</p>
@@ -364,7 +365,7 @@
                         </div>
                         <div class="section-2-gallery-2">
                             <div class="add-btn-div">
-                                <a href="/jacket-specific.html">View</a>
+                                <a href="/jacket-specific.html" aria-label="view more about the jacket">View</a>
                             </div>
                         </div>
                     </div>
@@ -372,7 +373,7 @@
                 </div>
 
                 <div class="section-2-gallery-img-9 section-2-gallery-common">
-                    <div><a href="/jacket-specific.html">
+                    <div><a href="/jacket-specific.html" aria-label="view more about the jacket">
                             <img src="/images/hero-page-img/you-might-9.jpg" alt="A woman with a jacket">
                         </a></div>
                     <p class="section-2-gallery-text-p">Oversized Belted Biker Jacket</p>
@@ -384,7 +385,7 @@
                         </div>
                         <div class="section-2-gallery-2">
                             <div class="add-btn-div">
-                                <a href="/jacket-specific.html">View</a>
+                                <a href="/jacket-specific.html" aria-label="view more about the jacket">View</a>
                             </div>
                         </div>
                     </div>
@@ -393,7 +394,7 @@
                 </div>
 
                 <div class="section-2-gallery-img-10 section-2-gallery-common">
-                    <div><a href="/jacket-specific.html">
+                    <div><a href="/jacket-specific.html" aria-label="view more about the jacket">
                             <img src="/images/hero-page-img/you-might-10.jpg" alt="A man with a jacket">
                         </a></div>
                     <p class="section-2-gallery-text-p">Men's Vika Light Insulated Vest</p>
@@ -410,7 +411,7 @@
                         </div>
                         <div class="section-2-gallery-2">
                             <div class="add-btn-div">
-                                <a href="/jacket-specific.html">View</a>
+                                <a href="/jacket-specific.html" aria-label="view more about the jacket">View</a>
                             </div>
                         </div>
                     </div>
@@ -534,7 +535,7 @@
             </div>
 
             <div class="section-3-discover-more-btn">
-                <a href="/men.html">Discover More</a>
+                <a href="/men.html" aria-label="view more about the men's">Discover More</a>
             </div>
 
         </section>
