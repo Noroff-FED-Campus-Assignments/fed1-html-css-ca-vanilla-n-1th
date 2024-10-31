@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/e-_62uB-)
+![image](https://github.com/user-attachments/assets/8ffb6f1d-060d-4c46-8369-bca2f2e12f77)[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/e-_62uB-)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16578875&assignment_repo_type=AssignmentRepo)
 # FED Exam - Vanilla Front-end Website
 
@@ -9,8 +9,11 @@ This bootstrap template is intended to help you deliever a amazing website which
 <!-- You must replace these links -->
 
 - [Brief](https://noroff.sharepoint.com/:b:/s/FED1OSL24/EXvJ9TMGmU9Fsok1mQq1H08BKzQaheKEX5-p2e9czBsIdQ?e=TDbpCH)
-- [Design](_LINK_TO_FIGMA_)
-- [Production deploy](_LINK_TO_WEBSITE_)
+- [Design-desktop](https://www.figma.com/proto/hgQ4WNNGSHOxg9DViYzdIA/Rainydays-Superman?page-id=0%3A1&node-id=2-2&node-type=canvas&viewport=399%2C197%2C0.11&t=RfCGWTH6doE0euxU-1&scaling=scale-down&content-scaling=fixed![image](https://github.com/user-attachments/assets/5969e840-6870-41b5-af7a-c7e13ed59e40)
+)
+- [Design-mobile](https://www.figma.com/proto/hgQ4WNNGSHOxg9DViYzdIA/Rainydays-Superman?page-id=949%3A797&node-id=1292-4183&node-type=canvas&viewport=490%2C629%2C0.14&t=uCOmyRFyKNggAfqX-1&scaling=scale-down&content-scaling=fixed![image](https://github.com/user-attachments/assets/b8a9adb6-4dad-4508-8f42-ac7784f6d328)
+)
+- [Production deploy](https://nirush-fed1-html-css-ca-rainydays.netlify.app/)
 - [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
 
 ## Deployment
@@ -22,7 +25,7 @@ You can update your deployment pipeling by editing the [vercel.json](https://ver
 
 ## Report
 
-_ADD_YOUR_REPORT_HERE_
+- [Report](_https://docs.google.com/document/d/1Q-rmOpeGXJ-xwUUeOcfhid4X0wBftrYU2mW_0n_VoeM/edit?usp=sharing )
 
 ## Getting Started
 
