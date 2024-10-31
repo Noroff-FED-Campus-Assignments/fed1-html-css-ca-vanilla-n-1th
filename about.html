@@ -38,19 +38,20 @@
     <header>
         <nav class="desktop-nav">
             <div class="logo-div">
-                <a role="logo" href="index.html" class="logo"><img src="/images/rainydays-logo.png" alt="logo"></a>
+                <a role="logo" href="index.html" class="logo"><img src="/images/rainydays-logo.png" alt="logo"
+                        aria-label="logo"></a>
             </div>
             <input type="checkbox" id="check">
             <div class="nav-links">
-                <li role="home"> <a href="index.html" class="nav-item">Home</a></li>
-                <li role="jackets" id="jacket-links">
+                <li role="home" aria-label="home"> <a href="index.html" class="nav-item">Home</a></li>
+                <li role="jackets" id="jacket-links" aria-label="jackets-links">
                     <a href="#" class="nav-item nav-item-link ">Jackets</a>
                     <div class="jacket-categories-main">
                         <div class="jacket-categories-sub">
                             <ul>
-                                <li> <a href="/men.html">Men's</a></li>
-                                <li> <a href="/women.html">Women's</a></li>
-                                <li> <a href="#">Kids</a></li>
+                                <li aria-label="men"> <a href="/men.html">Men's</a></li>
+                                <li aria-label="women"> <a href="/women.html">Women's</a></li>
+                                <li aria-label="kids"> <a href="#">Kids</a></li>
                             </ul>
                         </div>
                     </div>
@@ -69,15 +70,15 @@
                     <i class="fa-solid fa-x"></i>
                 </label>
             </div>
-
             <div class="nav-icons">
                 <div class="search-box">
-                    <a href="">
+                    <a href="" aria-label="search for items">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </a>
                     <input type="search" placeholder="Search...">
                 </div>
-                <a href="/login.html" class="nav-login"><i class="fa-solid fa-user"></i></a>
+                <a href="/login.html" class="nav-login" aria-label="login to the account"><i
+                        class="fa-solid fa-user"></i></a>
                 <i class="fa-solid fa-cart-shopping"></i>
             </div>
 
@@ -86,6 +87,7 @@
             </label>
         </nav>
     </header>
+
 
     <main>
 
