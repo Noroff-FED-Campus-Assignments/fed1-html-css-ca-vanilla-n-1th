@@ -986,6 +986,10 @@ i {
     border-top: 0.5px solid #00000050;
 }
 
+.sec-1-gallery-jacket-mobile {
+    display: none;
+}
+
 @media (width<999px) {
 
     .sec-1-main-container-jacket {
@@ -1037,6 +1041,14 @@ i {
     .sec-1-product-details-main-jacket .pb {
         flex-direction: column;
         gap: 0;
+    }
+
+    .sec-1-gallery-jacket-mobile {
+        display: flex;
+    }
+
+    .sec-1-gallery-jacket-desktop {
+        display: none;
     }
 }
 
