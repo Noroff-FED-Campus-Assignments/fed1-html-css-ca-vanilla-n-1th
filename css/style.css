@@ -988,6 +988,7 @@ header {
         gap: 0.7rem;
         overflow-x: scroll;
         justify-content: flex-start;
+        scroll-snap-type: x proximity;
     }
 
     .hero-page-hr-2 {
