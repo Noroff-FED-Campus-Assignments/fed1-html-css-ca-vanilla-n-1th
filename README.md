@@ -14,7 +14,7 @@ This bootstrap template is intended to help you deliever a amazing website which
 - [Design-mobile](https://www.figma.com/proto/hgQ4WNNGSHOxg9DViYzdIA/Rainydays-Superman?page-id=949%3A797&node-id=1292-4183&node-type=canvas&viewport=490%2C629%2C0.14&t=uCOmyRFyKNggAfqX-1&scaling=scale-down&content-scaling=fixed![image](https://github.com/user-attachments/assets/b8a9adb6-4dad-4508-8f42-ac7784f6d328)
 )
 - [Production deploy](https://nirush-fed1-html-css-ca-rainydays.netlify.app/)
-- [Deployment CI](https://app.netlify.com/sites/nirush-fed1-html-css-ca-rainydays/overview))
+- [Deployment CI](https://app.netlify.com/sites/nirush-fed1-html-css-ca-rainydays/overview)
 
 ## Deployment
 
