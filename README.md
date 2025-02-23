@@ -102,5 +102,4 @@ You are allowed to use external libraries such as animation.css or open-props, b
 
 ## Authors
 
-- _YOURE_NAME_ (@_your_github_username_)
-- Monde Sineke (@S3ak)
+- Nirushan Rajamanoharan (@Nirush4)
